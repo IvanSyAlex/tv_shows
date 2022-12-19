@@ -1,0 +1,32 @@
+.infoTvShow{
+    margin-top: 2em;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    border: 1px solid gray;
+    border-radius: 0.2em;
+    box-shadow: 0 0 50px rgba(128,128,128, 1) inset;
+}
+.infoTvShow__name{
+    color: #E2E5EC;
+    margin: 1em;
+}
+.infoTvShow__img{
+    border: 1px solid silver;
+    border-radius: 0.2em;
+    width: 18em;
+    height: 20em;
+    text-indent: -10000px;  /* убирает иконку если изображения нет  */
+    background: url("../../img/non_img.jpeg") no-repeat center ;
+    background-size: 100% 100%;
+}
+.infoTvShow__info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 1em;
+}
+.infoTvShow__summary{
+    margin: 1em;
+    background: #E6E5E3;
+    padding: 2em;
+    border-radius: 0.2em;
+}

@@ -1,0 +1,27 @@
+.itemSearchList{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 0.3em;
+}
+.itemSearchList:hover{
+    background: #C2CBD4;
+}
+.itemSearchList__divImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemSearchList__img{
+    height: 2.5em;
+    width: 2.5em;
+    margin-right: 2em;
+    margin-left: 0.2em;
+    border: 1px solid grey;
+    border-radius: 0.2em;
+}
+.itemSearchList__title{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #545E5D;
+}

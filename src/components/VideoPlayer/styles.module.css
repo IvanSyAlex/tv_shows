@@ -1,0 +1,10 @@
+.videoPlayer{
+    border: 1px solid #172025;
+    margin: 3em auto;
+    display: inline-block;
+
+}
+.react-player{
+    border-radius: 2em;
+    border: 1px solid red;
+}

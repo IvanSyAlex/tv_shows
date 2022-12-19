@@ -1,0 +1,32 @@
+.listEpisodes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4em auto 0 auto;
+}
+.listEpisodes__arrowLeft{
+    width: 4em;
+    height: 4em;
+    background: url('../../../img/arrow_left.png')  no-repeat center/60% ;
+}
+.listEpisodes__arrowLeft:hover{
+    cursor: pointer;
+    background: url('../../../img/arrow_left_hover.png')  no-repeat center/70% ;
+}
+.listEpisodes__arrowRight{
+    width: 4em;
+    height: 4em;
+    background: url('../../../img/arrow_right.png')  no-repeat center/60% ;
+}
+.listEpisodes__arrowRight:hover{
+    cursor: pointer;
+    background: url('../../../img/arrow_right_hover.png')  no-repeat center/70% ;
+}
+.listEpisodes__list{
+    display: flex;
+    width: 63em;
+    overflow: hidden;
+}
+.listEpisodes__list__none{
+    display: none;
+}
