@@ -12,7 +12,7 @@
 .infoTvShow__img{
     border: 1px solid silver;
     border-radius: 0.2em;
-    width: 18em;
+    min-width: 20em;
     height: 20em;
     text-indent: -10000px;  /* убирает иконку если изображения нет  */
     background: url("../../img/non_img.jpeg") no-repeat center ;

@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 const Layout: FC<any>= ({children}) => {
     return (
         <div className={styles.layout}>
-            <h1 className={styles.layout__title}>Поиск с использованием TVMAZE API </h1>
+            <h1 className={styles.layout__title}>Поиск с использованием &lt;TVMAZE&gt; API </h1>
             <Header/>
             <div>{children}</div>
         </div>

@@ -1,5 +1,21 @@
-.payPage__player{
+.playPage__player{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.playPage__buttonPanel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.playPage__link{
+    text-decoration: none;
+    color: #E2E5EC;
+    border: 2px solid #C2CBD4;
+    border-radius: 0.5em;
+    padding: 0 0.7em;
+    box-shadow: 0 0 80px rgba(139,118,128, 1) inset;
+}
+.playPage__link:hover{
+    box-shadow: 0 0 80px rgba(139,158,128, 1) inset;
 }
